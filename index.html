@@ -35,14 +35,12 @@
     	//  the icon for the current weather.
 
 
-
-
     	// You will need to update this query with the city, weather format (Celsius or Fahrenheit) and your OpenWeatherMap ID
     	 
     	// Right now I have it set to Chicago.  The default should be Ann Abor/Fahreheit.
 		let YourWeatherAppID = "d56fbdc07ed9f001f8948bb08bde26b4";
 		// let query = "http://api.openweathermap.org/data/2.5/weather?q=Ann%20Arbor&APPID=" +YourWeatherAppID;
-		let query = "http://api.openweathermap.org/data/2.5/weather";
+		let query = "https://api.openweathermap.org/data/2.5/weather";
         console.log("Query is :" + query);
 		if ($("#location").val() != ""){
 		var search = {
